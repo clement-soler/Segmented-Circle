@@ -1,0 +1,44 @@
+@import 'config/color.scss';
+
+body{
+    width: 100%;
+    height: 100%;
+}
+
+.center{
+    text-align: center;
+    margin: auto;
+}
+
+.circle{
+    margin-top: 200px;
+	width: 200px;
+	height: 200px;
+	background: #34495e;
+	position: relative;
+    -webkit-transform: scale(2);
+}
+
+.element{
+	position: absolute;
+	cursor: pointer;
+	&:hover{
+    z-index: 2;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.1);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.1);   
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.1);
+    transition: all 200ms ease-in;
+    transform: scale(1.1);
+	}
+}
+.topleft{top: 0;left: 13px;fill: green;}
+.topright{top: 0;right: 13px;}
+.middleleft{left: 0;top: 50px;}
+.middleright{right: 0;top: 50px;}
+.bottomleft{bottom: 0; left: 13px;}
+.bottomright{bottom: 0;right:13px;}
+
+

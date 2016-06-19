@@ -1,0 +1,27 @@
+{
+  "name": "quickstarter",
+  "version": "1.0.0",
+  "description": "quick starter gulp sass and bootstrap grid system",
+  "main": "js/main.js",
+  "scripts": {
+    "test": ""
+  },
+  "author": "Clément Soler",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.3.1"
+  },
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.3.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clement-soler/QuickStarter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/clement-soler/QuickStarter/issues"
+  },
+  "homepage": "https://github.com/clement-soler/QuickStarter#readme"
+}
